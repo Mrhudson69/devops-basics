@@ -1,0 +1,52 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+
+      - name: Cache pip packages
+        uses: actions/cache@v6
+        with:
+          key: mkdocs-material-${{ hashFiles('requirements-docs.txt') }}
+          path: ~/.cache/pip
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install dependencies
+        run: pip install -r requirements-docs.txt
+
+      - name: Symlink repo content into docs/
+        # MkDocs requires docs_dir to be a child of the config file directory.
+        # We use docs/ as docs_dir, so we symlink the repo-root content trees
+        # into docs/ so MkDocs can find them without moving any files.
+        run: |
+          cd docs
+          for d in topics getting-started projects troubleshooting; do
+            ln -sfn ../$d $d
+            echo "Linked: $d"
+          done
+          ln -sf ../CONTRIBUTING.md CONTRIBUTING.md
+          [ -f ../ROADMAP.md ] && ln -sf ../ROADMAP.md ROADMAP.md \
+            || echo "ROADMAP.md not found, skipping"
+
+      - name: Build and deploy docs to GitHub Pages
+        run: mkdocs gh-deploy --force --clean
+        env:
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}

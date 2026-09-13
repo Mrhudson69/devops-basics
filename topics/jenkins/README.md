@@ -6,7 +6,7 @@
 
 ### Jenkins workflow
 
-- None
+- N/A
 
 ### Official website documentation of Jenkins
 
@@ -34,7 +34,7 @@
 
 ### Jenkins Hello World
 
-- See: [Jenkins Hello world](./basic/Jenkins-Hello-World.md)
+- See: [Jenkins Hello world](./basics/README.md)
 
 ## 5. Beyond the Basics
 
@@ -46,8 +46,8 @@
 
 ### Jenkins cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

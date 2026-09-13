@@ -8,7 +8,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### AWS Architecture
 
-- None
+- N/A
 
 ### Official website documentation of AWS
 
@@ -32,7 +32,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### 2. AWS Hello World
 
-- Check the [basic/](./basic/) directory to create a simple AWS EC2.
+- Check the [basic/](./basics/) directory to create a simple AWS EC2.
 
 ## 5. Beyond the Basics
 
@@ -48,4 +48,4 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### Recommended Books
 
-- None
+- N/A

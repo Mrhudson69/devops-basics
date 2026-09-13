@@ -7,7 +7,7 @@
 
 ### Python workflow
 
-- None
+- N/A
 
 ### Official website documentation of Python
 
@@ -15,7 +15,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -33,7 +33,7 @@
 
 ### Python Hello World
 
-- Explore the [helloworld.py](./basic/helloworld.py) file in the helloworld directory to get a basic introduction to running a Python script.
+- Explore the [helloworld.py](./basics/helloworld.py) file in the helloworld directory to get a basic introduction to running a Python script.
 - Run `cd helloworld; python3 helloworld.py`
 
 ## 5. Beyond the Basics
@@ -50,4 +50,4 @@
 
 ### Recommended Books
 
-- None
+- N/A

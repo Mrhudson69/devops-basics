@@ -6,7 +6,7 @@
 
 ### Nginx workflow
 
-- None
+- N/A
 
 ### Official website documentation of Nginx
 
@@ -34,7 +34,7 @@
 
 ### Nginx Hello World
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. Beyond the Basics
 
@@ -50,8 +50,8 @@
 
 ### Nginx cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

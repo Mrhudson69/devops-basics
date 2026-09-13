@@ -11,7 +11,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -27,14 +27,14 @@
 
 ### Packer Hands on
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. More...
 
 ### Packer cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

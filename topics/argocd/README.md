@@ -32,7 +32,7 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 ### ArgoCD Hello World
 
-- Run the [basic/](./basic/install_argocd.sh) script to execute a simple ArgoCD "Hello World" demonstration.
+- Run the [basic/](./basics/install_argocd.sh) script to execute a simple ArgoCD "Hello World" demonstration.
 
 ## 5. Beyond the Basics
 
@@ -48,4 +48,4 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 ### Recommended Books
 
-- None
+- N/A

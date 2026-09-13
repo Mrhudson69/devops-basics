@@ -34,7 +34,7 @@
 
 ### Terraform Hello World
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. Beyond the Basics
 
@@ -50,8 +50,8 @@
 
 ### Terraform cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

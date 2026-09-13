@@ -7,7 +7,7 @@
 
 ### Groovy workflow
 
-- None
+- N/A
 
 ### Official website documentation of Groovy
 
@@ -15,7 +15,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -28,7 +28,7 @@
 
 ### Groovy Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Groovy demo.
+- Check the [basic/](./basics/) directory to create a simple Groovy demo.
 
 ## 5. Beyond the Basics
 

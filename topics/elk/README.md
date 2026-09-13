@@ -17,7 +17,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -33,7 +33,7 @@
 
 ### ELK Hello World
 
-- Check the [helloworld/](./basic/helloworld/) directory to create a simple ELK demo.
+- Check the [helloworld/](./basics/helloworld/) directory to create a simple ELK demo.
 
 ## 5. Beyond the Basics
 
@@ -45,8 +45,8 @@
 
 ### ELK learning resource
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A
